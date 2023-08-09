@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>The Voters</title>
+</head>
+<body>
+    <header>
+        <h1>The Voters</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="register.html">Register to Vote</a></li>
+                <li><a href="vote.html">Vote</a></li> <!-- Add this link -->
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="voting-section">
+            <h2>Vote for Your Preferred Candidate</h2>
+            <form id="votingForm">
+                <label>
+                    <input type="radio" name="candidate" value="Nivetha">
+                    <span>Nivetha</span>
+                </label>
+                <label>
+                    <input type="radio" name="candidate" value="Monisha">
+                    <span>Monisha</span>
+                </label>
+                <label>
+                    <input type="radio" name="candidate" value="Rohini">
+                    <span>Rohini</span>
+                </label>
+                <button type="submit">Vote</button>
+            </form>
+            <p id="voteResult"></p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 The Voters</p>
+        <li><a href="index.html">Home</a></li>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,89 @@
+body {
+    font-family: sans-serif;
+    background-color: #fff;
+  }
+  
+  h1 {
+    font-size: 2em;
+    margin-top: 0;
+  }
+  
+  h2 {
+    font-size: 1.5em;
+  }
+  
+  p {
+    margin-bottom: 10px;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #000;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  footer {
+    text-align: center;
+    margin-top: 20px;
+  }
+/* Style for the voting section */
+.voting-section {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-top: 20px;
+  background-color: #f9f9f9;
+}
+
+.voting-section h2 {
+  margin-bottom: 10px;
+}
+
+.voting-section form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.voting-section label {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.voting-section input[type="radio"] {
+  margin-right: 8px;
+}
+
+.voting-section button {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.voting-section button:hover {
+  background-color: #2980b9;
+}
+
+/* Style for the vote result message */
+#voteResult {
+  margin-top: 10px;
+  font-weight: bold;
+  color: #27ae60;
+}

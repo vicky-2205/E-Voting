@@ -1,0 +1,13 @@
+{
+    "name": "thevoters",
+    "version": "1.0.0",
+    "description": "A website for The Voters",
+    "main": "server.js",
+    "scripts": {
+      "start": "node server.js"
+    },
+    "dependencies": {
+      "express": "^4.17.1"
+    }
+  }
+  
